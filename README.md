@@ -9,4 +9,4 @@ A python bot that replaces social urls with their embedded one
 `instagram.com` => `ddinstagram.com`
 
 ## Tiktok
-`tiktok.com => d.tnktok.com`
+`tiktok.com` => `d.tnktok.com`
