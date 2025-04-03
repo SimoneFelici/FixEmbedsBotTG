@@ -15,9 +15,6 @@ def convert_links(text):
     # TikTok
     text = re.sub(r'https?://(www\.)?tiktok\.com', r'https://d.tnktok.com', text)
 
-    # YouTube (nocookie)
-    text = re.sub(r'https?://(www\.)?youtube\.com', r'https://www.youtube-nocookie.com', text)
-
     return text
 
 async def link_converter(update, context):
